@@ -1,1 +1,1 @@
-# I am currenlt working on this interactive story where you can choose your own adventure by answering questons. The application is not ready yet, there is no styling at all and the plot of the story is not finished. I use React and will add MongoDB later
+# I am currently working on this interactive story where you can choose your own adventure by answering questons. The application is not ready yet, there is no styling at all and the plot of the story is not finished. I use React and will add MongoDB later
