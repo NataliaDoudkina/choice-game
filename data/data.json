@@ -1,0 +1,96 @@
+{
+
+"paragraphs":[
+
+    {"paragraph":"You wake up on a beach next to a broken rowboat with no memory of what happened or how you got here. You look around and all you see is the shoreline of the beach going left and right and straight ahead off in the distance you see what looks to be a road. You decide its best to move on. Which way will you go?",
+        "options":[
+           { "option1":"Follow the shoreline to the left", "id":"1"},
+            {"option2":"Follow the shoreline to the right", "id":"2"},
+            {"option3":"Go straight ahead towards the road"},
+            {"option4":"Remain where you are and try to look for clues"}
+            
+        ]    
+},
+
+     {"paragraph":"you walk for a long time and the shoreline ends at a great wall. From here your options are limited. You decide to:", 
+   "options":[
+       {"option1":"you can follow along the wall going through the forest:" , "id":"1_1"},
+       { 
+        "option2":"you can go back down the shoreline from where you came", "id":"1_2"}
+       
+   ], 
+   "id":"1"
+        
+      },
+
+{"paragraph":"you follow along the wall and just as it starts getting dark you reach a giant gate and the guard post. Two guards immediately jump out and yell “who goes there”? You explain to the guards who you are and what happened. From the guards you learn you are in the kingdom of Windermear. From here you must decide: ",
+    "options":[
+        {"option1":"go through the gates into the kingdom of Windermear:", "id":"1_1_1"},
+        { "option2": "follow the road leaving the kingdom.", "id":"1_1_2"}
+    ],
+    "id":"1_1"   
+},
+
+{"paragraph":"as you enter the gates off in the distance you see a great big castle and left and right you see many shops and people going about their business. You don’t know what to do or where to go. You can either: ",
+    "options":[
+        {"option1":"talk to a random person:",  "randomPerson":true, "id":"randomPerson"},
+        { "option2": "walk into a random shop", "id":""},
+        {"option3":"Walk towards the castle", "id":""}
+    ],
+    "id":"1_1_1"   
+},
+
+{"paragraph":"as you shake the man’s hand, he pulls you in close and stabs you with a short sword, then pushes you back tripping you with his foot. As you look up you see the man laughing at you holding your bag of money and he quickly runs behind an alley and disappears. As you lay there bleeding and breathing your last you didn’t think you’d die this way.",
+"id":"1_1_1_1_1",
+    "last":true  
+},
+{
+    "paragraph":"you approach a burly looking man who is unloading his wagon and you introduce yourself. The man grunts at you and says – can’t you see I am busy here? Leave me alone! ",
+    "id":"burly_man",
+    "idToreturn":"1_1_1"
+},
+{
+    "paragraph":"you approach a man who appears to be wealthy. He looks at you up and down and jeers at you and  says – how dare you approach me commoner!  ",
+    "id":"rich_man",
+    "idToreturn":"1_1_1"
+},
+{
+    "paragraph":"you approach a tiny man leaning against a wall. The tiny man smiles at you and says – well, well, well, how are you doing stranger? I’ve never seen you before. And he reaches out to shake your hand.   Do you decide to shake his hand?: ",
+    "options":[
+        {"option1":"shake the man’s hand", "id":"1_1_1_1_1"},
+        {"option2":"do not shake the man’s hand", "id":"1_1_1_1_2"}
+    ],
+    "id":"thief"
+},
+
+{
+    "paragraph":"you approach an older looking man who is wearing a robe and carrying a staff with a crystal on top. The man looks at you and says: - you seem to be lost and don’t know how you got here. Am I right? You have a  shocked expression as you reply with a nod. The man says follow me to my shop and maybe I can help you and then you help me: ",
+    "options":[
+        {"option1":"You follow the man to his shop:", "id":"1_1_1_1_1_1"},
+        {"option2":"You decide not to follow the man:", "id":"1_1_1_1_2"}
+    ],
+"id":"wizard"
+},
+
+{ "paragraph":"you decide not to shake the man’s hand and you see that the man was hiding a short sword behind his back. He lunges at you with his short sword and you quickly dodge the attack and grab the tiny man by his throat and throw him against the wall. The tiny man cowers in fear, drops his short sword and runs through an alley and disappears.  ",
+    "id":"1_1_1_1_2",
+    "lastOption":true
+    
+    },
+    {"paragraph":"As the old man leads you into his shop the door magically closes behind you. The old man introduces himself as the great wizard Aganam. He is advisor to the king of Windermear. You introduce yourself to the wizard and explain your situation. The wizard says – for now you should eat and rest. Tomorrow I shall take you to mee t the king. The wizard claps his hands and two gnomes appear and the wizard says – take this person(username) to the spare bedroom and bring him food. Then the wizard looks at you and says – goodnight we shall talk in the morning.",
+    "id":"1_1_1_1_1_1",
+    "options":[
+        {"option1":"You wake up:", "id":"1_1_1_1_1_1_1"},
+        {"option2":"You dont wake up:", "id":"1_1_1_1_1_2"}
+    ]},
+    {
+"paragraph":"you didnt follow the man now continue with other options",
+"lastOption":true,
+"id":"wizardLast"
+
+    }
+
+]   
+
+
+}
